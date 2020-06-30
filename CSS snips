@@ -1,0 +1,38 @@
+/*---------------Menu CTA Button---------------*/
+ 
+#top-menu li a:hover {opacity: 1!important;}
+             
+.menu-cta a {
+    border: 2px solid #ffffff4f!important;
+    padding: 12px!important;
+    border-radius: 25px;
+    text-align: center;
+	 background-color: #fff200;
+}
+ 
+.menu-cta a:hover {
+    background-color: #fff200;
+    color: black!important;
+}
+ 
+.et_header_style_left #et-top-navigation {
+    padding-top: 16px!important;
+}
+ 
+.et_header_style_left .et-fixed-header #et-top-navigation {
+    padding-top: 6px!important;
+}
+ 
+/*---------------CTA Button Color on Fixed Navigation---------------*/
+ 
+#main-header.et-fixed-header .menu-cta a {
+color: #000 !important;
+}
+ 
+/*---------------Menu CTA Button Mobile Settings---------------*/
+ 
+@media only screen and (max-width: 980px) {
+.menu-cta a {
+    background-color: #fff200;
+    }
+}
